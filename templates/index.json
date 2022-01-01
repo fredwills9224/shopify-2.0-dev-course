@@ -227,6 +227,12 @@
       ],
       "settings": {
       }
+    },
+    "1640999864591cdc71": {
+      "type": "weekly-picks",
+      "settings": {
+        "collection": "weekly-picks"
+      }
     }
   },
   "order": [
@@ -236,6 +242,7 @@
     "collage",
     "video",
     "multi_column",
-    "164099967042d297de"
+    "164099967042d297de",
+    "1640999864591cdc71"
   ]
 }
