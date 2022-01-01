@@ -37,6 +37,11 @@
           "type": "description",
           "settings": {
           }
+        },
+        "317c0854-31eb-428d-809f-ec2b7eecdd1f": {
+          "type": "social",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -45,7 +50,8 @@
         "price",
         "variant_picker",
         "buy_buttons",
-        "description"
+        "description",
+        "317c0854-31eb-428d-809f-ec2b7eecdd1f"
       ],
       "settings": {
         "enable_sticky_info": true,
