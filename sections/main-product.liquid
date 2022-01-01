@@ -463,13 +463,29 @@
               </p>
             {%- endif -%}
             {%- when 'social' -%}
-              <div>
-                <ul>
-                  <li> facebook </li>
-                  <li> pinterest </li>
-                  <li> twitter </li>
-                </ul>
-              </div>
+                
+              <ul class="social-sharing">
+                
+                <li>
+                  <a href="{{ settings.social_facebook_link }}">
+                    {% render 'icon-facebook' %}
+                    <span class="social-sharing__title">Facebook</span>
+                  </a> 
+                </li>
+                <li> 
+                  <a href="{{ settings.social_pinterest_link }}">
+                    {% render 'icon-pinterest' %}
+                    <span class="social-sharing__title">Pin It</span>
+                  </a> 
+                </li>
+                <li> 
+                  <a href="{{ settings.social_twitter_link }}"> 
+                  {% render 'icon-twitter' %}
+                    <span class="social-sharing__title">Tweet</span>
+                  </a>
+                </li>
+              
+              </ul>
 
           {%- endcase -%}
         {%- endfor -%}
