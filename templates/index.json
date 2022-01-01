@@ -202,10 +202,19 @@
             "image_bg": "shopify:\/\/shop_images\/hero-beach.png",
             "image_hover": "shopify:\/\/shop_images\/hero-beach-hover.png"
           }
+        },
+        "b226ae5f-d74e-4ae0-b9f7-4b179bab2e74": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim",
+            "image_bg": "shopify:\/\/shop_images\/hero-denim.png",
+            "image_hover": "shopify:\/\/shop_images\/hero-denim-hover.png"
+          }
         }
       },
       "block_order": [
-        "bb5f4609-b97b-4043-81bd-3d1255d0ac68"
+        "bb5f4609-b97b-4043-81bd-3d1255d0ac68",
+        "b226ae5f-d74e-4ae0-b9f7-4b179bab2e74"
       ],
       "settings": {
       }
