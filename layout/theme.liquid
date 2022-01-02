@@ -30,6 +30,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -108,12 +109,15 @@
       }
 
       .bubble--sale{
-        background-image: url({{ 'bubble-sale.svg' | asset_url }})
+        background-image: url({{ 'bubble-sale.svg' | asset_url }});
       }
       .bubble--new{
-        background-image: url({{ 'bubble-new.svg' | asset_url }})
+        background-image: url({{ 'bubble-new.svg' | asset_url }});
       }
       .bubble--fave{
+        background-image: url({{ 'bubble-fave.svg' | asset_url }});
+      }
+      #toTop{
         background-image: url({{ 'bubble-fave.svg' | asset_url }})
       }
 
@@ -143,6 +147,8 @@
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
+
+    <button id="toTop"></button>
 
     {% section 'announcement-bar' %}
     {% section 'header' %}

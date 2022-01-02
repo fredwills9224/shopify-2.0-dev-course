@@ -881,3 +881,7 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+$("#toTop").click(function (){
+  $("html, body").animate({ scrollTop: 0 }, 800);
+});
